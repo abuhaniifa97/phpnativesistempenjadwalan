@@ -1,0 +1,134 @@
+body{
+	font-family: sans-serif;
+	background: #ebf9fb;
+}
+
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+}
+
+label{
+	font-size: 11pt;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tombol_login{
+	background: #2aa7e2;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+/* Slider Bar */
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 120px;
+    background-color: #333;
+    padding-top: 30px;
+
+
+}
+
+
+ footer p {
+     color: #aaa;
+     font-size: 0,9em;
+ }
+
+ section p i {
+     color: salmon;
+ }
+/* Akhir Footer */
+
+/* side bar */
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+	max-width: 250px;
+	min-height: 100vh;
+	color:black;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+/* Akhir side bar */
+
+/* tampil data */
+.tampildatamurid {
+	width: 900px;
+	background: white;
+	margin: 80px auto;
+	padding: 30px 20px;
+	box-shadow: 0px 0px 100px 4px gray;
+}
+/* Akhir TAmpil Data */
